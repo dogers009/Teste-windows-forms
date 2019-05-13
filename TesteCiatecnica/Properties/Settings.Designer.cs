@@ -49,7 +49,7 @@ namespace TesteCiatecnica.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("CEBMES")]
+        [global::System.Configuration.DefaultSettingValueAttribute("SID")]
         public string DB_ServiceName {
             get {
                 return ((string)(this["DB_ServiceName"]));
@@ -61,7 +61,7 @@ namespace TesteCiatecnica.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("tjose")]
+        [global::System.Configuration.DefaultSettingValueAttribute("jose_fischer")]
         public string DB_UserID {
             get {
                 return ((string)(this["DB_UserID"]));
@@ -73,7 +73,7 @@ namespace TesteCiatecnica.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Jfischerncompalbanco963")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Fischer123#")]
         public string DB_Password {
             get {
                 return ((string)(this["DB_Password"]));
@@ -85,7 +85,7 @@ namespace TesteCiatecnica.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("10.162.4.107")]
+        [global::System.Configuration.DefaultSettingValueAttribute("localhost")]
         public string DB_Host {
             get {
                 return ((string)(this["DB_Host"]));

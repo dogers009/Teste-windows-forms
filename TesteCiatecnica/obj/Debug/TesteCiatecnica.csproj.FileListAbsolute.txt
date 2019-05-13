@@ -15,4 +15,3 @@ C:\Users\jose_fischer\source\repos\TesteCiatecnica\TesteCiatecnica\bin\Debug\Tes
 C:\Users\jose_fischer\source\repos\TesteCiatecnica\TesteCiatecnica\obj\Debug\TesteCiatecnica.exe.manifest
 C:\Users\jose_fischer\source\repos\TesteCiatecnica\TesteCiatecnica\obj\Debug\TesteCiatecnica.application
 C:\Users\jose_fischer\source\repos\TesteCiatecnica\TesteCiatecnica\obj\Debug\TesteCiatecnica.frmBancoDeDados.resources
-C:\Users\jose_fischer\source\repos\TesteCiatecnica\TesteCiatecnica\obj\Debug\TesteCiatecnica.csprojAssemblyReference.cache

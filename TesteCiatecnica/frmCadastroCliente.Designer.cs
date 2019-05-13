@@ -69,8 +69,8 @@
             this.bancoDeDadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.configurarBancoDeDadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gpPesquisa = new System.Windows.Forms.GroupBox();
-            this.lblFiltro = new System.Windows.Forms.Label();
             this.txtFilter = new System.Windows.Forms.TextBox();
+            this.lblFiltro = new System.Windows.Forms.Label();
             this.groupBoxPessoaFisica.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericNumero)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -426,7 +426,10 @@
             // 
             // dgvPessoa
             // 
+            this.dgvPessoa.AllowUserToAddRows = false;
+            this.dgvPessoa.AllowUserToDeleteRows = false;
             this.dgvPessoa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPessoa.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dgvPessoa.Location = new System.Drawing.Point(17, 304);
             this.dgvPessoa.Name = "dgvPessoa";
             this.dgvPessoa.Size = new System.Drawing.Size(804, 184);
@@ -469,6 +472,14 @@
             this.gpPesquisa.TabStop = false;
             this.gpPesquisa.Text = "Pesquisa";
             // 
+            // txtFilter
+            // 
+            this.txtFilter.Location = new System.Drawing.Point(44, 16);
+            this.txtFilter.Name = "txtFilter";
+            this.txtFilter.Size = new System.Drawing.Size(164, 20);
+            this.txtFilter.TabIndex = 1;
+            this.txtFilter.TextChanged += new System.EventHandler(this.txtFilter_TextChanged);
+            // 
             // lblFiltro
             // 
             this.lblFiltro.AutoSize = true;
@@ -477,14 +488,6 @@
             this.lblFiltro.Size = new System.Drawing.Size(32, 13);
             this.lblFiltro.TabIndex = 0;
             this.lblFiltro.Text = "Filtro:";
-            // 
-            // txtFilter
-            // 
-            this.txtFilter.Location = new System.Drawing.Point(44, 16);
-            this.txtFilter.Name = "txtFilter";
-            this.txtFilter.Size = new System.Drawing.Size(164, 20);
-            this.txtFilter.TabIndex = 1;
-            this.txtFilter.TextChanged += new System.EventHandler(this.txtFilter_TextChanged);
             // 
             // frmCadastro
             // 

@@ -9,16 +9,16 @@
       <Value Profile="(Default)">1521</Value>
     </Setting>
     <Setting Name="DB_ServiceName" Type="System.String" Scope="User">
-      <Value Profile="(Default)">CEBMES</Value>
+      <Value Profile="(Default)">SID</Value>
     </Setting>
     <Setting Name="DB_UserID" Type="System.String" Scope="User">
-      <Value Profile="(Default)">tjose</Value>
+      <Value Profile="(Default)">jose_fischer</Value>
     </Setting>
     <Setting Name="DB_Password" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Jfischerncompalbanco963</Value>
+      <Value Profile="(Default)">Fischer123#</Value>
     </Setting>
     <Setting Name="DB_Host" Type="System.String" Scope="User">
-      <Value Profile="(Default)">10.162.4.107</Value>
+      <Value Profile="(Default)">localhost</Value>
     </Setting>
   </Settings>
 </SettingsFile>
