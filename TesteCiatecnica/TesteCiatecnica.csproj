@@ -60,11 +60,13 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Devart.Data">
-      <HintPath>..\..\..\..\Documents\Visual Studio 2017\Projects\PPID_Rule\packages\dotConnect.Express.for.Oracle.9.2.172\lib\Devart.Data.dll</HintPath>
+    <Reference Include="Devart.Data, Version=5.0.1596.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Devart.Data.dll</HintPath>
     </Reference>
-    <Reference Include="Devart.Data.Oracle">
-      <HintPath>..\..\..\..\Documents\Visual Studio 2017\Projects\PPID_Rule\packages\dotConnect.Express.for.Oracle.9.2.172\lib\Devart.Data.Oracle.dll</HintPath>
+    <Reference Include="Devart.Data.Oracle, Version=9.2.172.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Devart.Data.Oracle.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
