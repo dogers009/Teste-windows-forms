@@ -15,3 +15,21 @@ C:\Users\jose_fischer\source\repos\TesteCiatecnica\TesteCiatecnica\bin\Debug\Tes
 C:\Users\jose_fischer\source\repos\TesteCiatecnica\TesteCiatecnica\obj\Debug\TesteCiatecnica.exe.manifest
 C:\Users\jose_fischer\source\repos\TesteCiatecnica\TesteCiatecnica\obj\Debug\TesteCiatecnica.application
 C:\Users\jose_fischer\source\repos\TesteCiatecnica\TesteCiatecnica\obj\Debug\TesteCiatecnica.frmBancoDeDados.resources
+C:\Users\jose_fischer\Downloads\Teste-windows-forms-master (1)\Teste-windows-forms-master\TesteCiatecnica\bin\Debug\TesteCiatecnica.exe.config
+C:\Users\jose_fischer\Downloads\Teste-windows-forms-master (1)\Teste-windows-forms-master\TesteCiatecnica\bin\Debug\TesteCiatecnica.exe.manifest
+C:\Users\jose_fischer\Downloads\Teste-windows-forms-master (1)\Teste-windows-forms-master\TesteCiatecnica\bin\Debug\TesteCiatecnica.application
+C:\Users\jose_fischer\Downloads\Teste-windows-forms-master (1)\Teste-windows-forms-master\TesteCiatecnica\bin\Debug\TesteCiatecnica.exe
+C:\Users\jose_fischer\Downloads\Teste-windows-forms-master (1)\Teste-windows-forms-master\TesteCiatecnica\bin\Debug\TesteCiatecnica.pdb
+C:\Users\jose_fischer\Downloads\Teste-windows-forms-master (1)\Teste-windows-forms-master\TesteCiatecnica\bin\Debug\Devart.Data.dll
+C:\Users\jose_fischer\Downloads\Teste-windows-forms-master (1)\Teste-windows-forms-master\TesteCiatecnica\bin\Debug\Devart.Data.Oracle.dll
+C:\Users\jose_fischer\Downloads\Teste-windows-forms-master (1)\Teste-windows-forms-master\TesteCiatecnica\obj\Debug\TesteCiatecnica.csprojAssemblyReference.cache
+C:\Users\jose_fischer\Downloads\Teste-windows-forms-master (1)\Teste-windows-forms-master\TesteCiatecnica\obj\Debug\TesteCiatecnica.frmBancoDeDados.resources
+C:\Users\jose_fischer\Downloads\Teste-windows-forms-master (1)\Teste-windows-forms-master\TesteCiatecnica\obj\Debug\TesteCiatecnica.frmCadastro.resources
+C:\Users\jose_fischer\Downloads\Teste-windows-forms-master (1)\Teste-windows-forms-master\TesteCiatecnica\obj\Debug\TesteCiatecnica.Properties.Resources.resources
+C:\Users\jose_fischer\Downloads\Teste-windows-forms-master (1)\Teste-windows-forms-master\TesteCiatecnica\obj\Debug\TesteCiatecnica.csproj.GenerateResource.cache
+C:\Users\jose_fischer\Downloads\Teste-windows-forms-master (1)\Teste-windows-forms-master\TesteCiatecnica\obj\Debug\TesteCiatecnica.csproj.CoreCompileInputs.cache
+C:\Users\jose_fischer\Downloads\Teste-windows-forms-master (1)\Teste-windows-forms-master\TesteCiatecnica\obj\Debug\TesteCiatecnica.exe.manifest
+C:\Users\jose_fischer\Downloads\Teste-windows-forms-master (1)\Teste-windows-forms-master\TesteCiatecnica\obj\Debug\TesteCiatecnica.application
+C:\Users\jose_fischer\Downloads\Teste-windows-forms-master (1)\Teste-windows-forms-master\TesteCiatecnica\obj\Debug\TesteCiatecnica.csproj.CopyComplete
+C:\Users\jose_fischer\Downloads\Teste-windows-forms-master (1)\Teste-windows-forms-master\TesteCiatecnica\obj\Debug\TesteCiatecnica.exe
+C:\Users\jose_fischer\Downloads\Teste-windows-forms-master (1)\Teste-windows-forms-master\TesteCiatecnica\obj\Debug\TesteCiatecnica.pdb
