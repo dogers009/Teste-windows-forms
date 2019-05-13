@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TesteCiatecnica.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DB_Protocol" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TCP</Value>
+    </Setting>
+    <Setting Name="DB_Port" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1521</Value>
+    </Setting>
+    <Setting Name="DB_ServiceName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CEBMES</Value>
+    </Setting>
+    <Setting Name="DB_UserID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">tjose</Value>
+    </Setting>
+    <Setting Name="DB_Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Jfischerncompalbanco963</Value>
+    </Setting>
+    <Setting Name="DB_Host" Type="System.String" Scope="User">
+      <Value Profile="(Default)">10.162.4.107</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

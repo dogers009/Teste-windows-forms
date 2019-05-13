@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TesteCiatecnica.exe" version="1.0.0.1" publicKeyToken="9d987106792075c1" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TesteCiatecnica" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TesteCiatecnica.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Devart.Data.dll" size="281112">
+      <assemblyIdentity name="Devart.Data" version="5.0.1596.0" publicKeyToken="09AF7300EEC23701" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>DuP4K8cOqGPtlEcjFrUjxi0w5GYHdxLpV4T6Rp7TKUQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Devart.Data.Oracle.dll" size="850456">
+      <assemblyIdentity name="Devart.Data.Oracle" version="9.2.172.0" publicKeyToken="09AF7300EEC23701" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>OpgUb5lfPqQevqWGC7V3EfHYl09PkASP4JdUT8P45BM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TesteCiatecnica.exe" size="51648">
+      <assemblyIdentity name="TesteCiatecnica" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CZieD2QBiuRiCMfUknWA58/cl4eYAMwIYfcOpXBZqaQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="TesteCiatecnica.exe.config" size="1584">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bUW8/SjttsPjGdt9IiKWDIMJDNnkc6lX1CT8H2KeyI8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=GI\Jose_Fischer" issuerKeyHash="9d3b88dd3d8124eab88b8403ceaca8ab1f69bd7d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>e3iNoFfvhzb0Vl9OgMIeobHB8PHbSv3h3f65MedtARM=</DigestValue></Reference></SignedInfo><SignatureValue>DJYXwBRnU0dFU6+r4fUNZh+LAG+LmtdPZieLkJCVm9U87GKwsNtqw5mLLCH/axdLAR4Bw7rAOhiW+I1QGijXsaHTBvj16OkNMvSPXfBwZX+nQw84ZL+dtILxz/IKTLgHm/kFla2yq3bxkErlJse9Wn+hFRjqcUtdqwZ+k072BlA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ranc5zEcTdx6fw+SS+6BArYM3lFeSqdfmdKXSRa80uDQJjLiN0D9L/nXqACiN7SBfTTlyw7vsfzAETk/5glis6MtRqNMVgz4jTOvuUr9bSHfQgWYYGougUeH9XvbHDVFxpyONLKyNIX2i+KAeVuI84Gu1vaPMEXYdXsGAOC5U58=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="13016de731b9fedde1fd4adbf1f0c1b1a11ec2804e5f56f43687ef57a08d787b" Description="" Url=""><as:assemblyIdentity name="TesteCiatecnica.exe" version="1.0.0.1" publicKeyToken="9d987106792075c1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=GI\Jose_Fischer</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>k0wRATTd87b1+mybHgqEWCfPxcPb+d/z9dvymnoH1qc=</DigestValue></Reference></SignedInfo><SignatureValue>NrK+IBmc3I3W+PJgxpFTSGgX2ZHzEbk+ZL3DDcbJz7IG/8WuBkMmrhHfKmj13A7+7zYmpNyrJhW2ztwOjl1U7YypDTe6L1xFvT9i5swWKdBnZPyBc95kaGc0UxroN5NOL/t03+6oNlTizxOg7tj6E7H8lFN6ByJ/v/eLzUtK9zE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ranc5zEcTdx6fw+SS+6BArYM3lFeSqdfmdKXSRa80uDQJjLiN0D9L/nXqACiN7SBfTTlyw7vsfzAETk/5glis6MtRqNMVgz4jTOvuUr9bSHfQgWYYGougUeH9XvbHDVFxpyONLKyNIX2i+KAeVuI84Gu1vaPMEXYdXsGAOC5U58=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQL8RYZHCRs4BOcClDxyZR2TANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4ARwBJAFwASgBvAHMAZQBfAEYAaQBzAGMAaABlAHIwHhcNMTkwNTExMjI0MzE0WhcNMjAwNTExMDQ0MzE0WjApMScwJQYDVQQDHh4ARwBJAFwASgBvAHMAZQBfAEYAaQBzAGMAaABlAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAK2p3OcxHE3cen8PkkvugQK2DN5RXkqnX5nSl0kWvNLg0CYy4jdA/S/516gAoje0gX005csO77H8wBE5P+YJYrOjLUajTFYM+I0zr7lK/W0h30IFmGBqLoFHh/V72xw1RcacjjSysjSF9ovigHlbiPOBrtb2jzBF2HV7BgDguVOfAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAhDGMf1qrPeWYaT5HH+Oa5zW+cZAVQh6nmdUo5uztQARQ5G9OfEB13iuwWblZKveVbsna4KggzMkvQdMLP+pX3sRIFC7Dh/aLw4FuD3BbBWRyx2UOh6Cqx2T7M1MBVCxnMN2BhsuoW5l+kQMYtyUwgWsmr+PDu/hMDZkLg2bDySI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
